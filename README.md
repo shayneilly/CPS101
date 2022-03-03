@@ -54,4 +54,30 @@ public class TicketingService {
             scnr.close();
         }
     }
-}```
+}
+```
+
+
+Using a stack to convert a decimal integer to its binary equivalent value.The algorithm is as follows:
+
+```java
+import java.util.Stack;
+
+public class Stacks {
+    public static void main(String[] args) {
+    
+        Stack<Integer> stack = new Stack<Integer>();
+        int value = 11;
+
+        while (value != 0) {
+            int remainder = value % 2;
+            stack.push(remainder);
+            value = value / 2;
+        }
+       
+       while (!stack.empty()) {
+            System.out.print(stack.pop());
+        }
+    }
+}
+```
