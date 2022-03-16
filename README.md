@@ -85,7 +85,7 @@ public class Stacks {
 ## Chapter 10 Trees
 
 ```java
-public class TreeDemo() {
+public class TreeDemo {
     public static void main(String[] args) {
         BinarySearchTree tree = new BinarySearchTree();
         for (int i= 0; i < 10; ++i) {
