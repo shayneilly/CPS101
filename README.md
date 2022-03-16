@@ -82,7 +82,7 @@ public class Stacks {
 }
 ```
 
-## Chapter 10 Trees
+## Chapter 8 Trees
 
 ```java
 public class TreeDemo {
