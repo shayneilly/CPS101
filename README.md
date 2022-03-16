@@ -1,5 +1,5 @@
 # CPS101
-## Chapter 6
+## Chapter 6 Stacks and Queues
 Create a program to read in a list of people's names including "You" (ending with -1), adding each person to the peopleInQueue queue. Then, remove each person from the queue until "You" is at the head of the queue. 
 
 ```java
@@ -82,7 +82,7 @@ public class Stacks {
 }
 ```
 
-## Chapter 10
+## Chapter 10 Trees
 
 ```java
 public class TreeDemo() {
