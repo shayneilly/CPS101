@@ -108,3 +108,21 @@ public class TreeDemo {
     }
 ```
 
+## Chapter 11 
+
+testing set iterators
+```java
+System.out.println("Output Set Content using Iterator implicitly: ");
+        for(Integer num : setA){
+            System.out.print( num + " ");
+        }
+
+        System.out.println();
+        System.out.println("Output Set Content using Iterator explicitly: ");
+        Iterator<Integer> itr = setA.iterator();
+
+        while(itr.hasNext()){
+            Integer num = itr.next();
+            //itr.remove();
+            System.out.print( num + " ");
+        }```
